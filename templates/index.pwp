@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html data-events="{{ root }}/events">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="initial-scale=1" />
+
+		<link rel="stylesheet" href="{{ root }}/main.css" />
+
+		<script src="{{ root }}/main.js" async></script>
+	</head>
+	<body>
+		<script>
+		var _startupInfo = {
+			users: {{ @users | inlineJSON }},
+			votes: {{ @votes | inlineJSON }}
+		};
+		var _ready = true;
+		var primary;
+
+		if (primary) {
+			primary.ready(_startupInfo);
+		}
+		</script>
+	</body>
+</html>

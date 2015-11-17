@@ -1,0 +1,7 @@
+{
+	"nominations": [{"post":33742202,"user":616460},{"post":33734117,"user":109702},{"post":33741517,"user":3093387},{"post":33617559,"user":572},{"post":33625670,"user":995926},{"post":33668482,"user":2301450},{"post":33666799,"user":871050},{"post":33689859,"user":476},{"post":33673906,"user":774078},{"post":33658073,"user":2371861},{"post":33617840,"user":1849664},{"post":33701846,"user":2174085},{"post":33617500,"user":2057919},{"post":33681355,"user":1952862},{"post":33617646,"user":189134},{"post":33656034,"user":2193767},{"post":33737593,"user":1380752},{"post":33702187,"user":1026459},{"post":33624479,"user":2422776}],
+	"users": {"476":"deceze","572":"Thomas Owens","109702":"slugster","189134":"Andy","616460":"Jason C","774078":"Sterling Archer","871050":"Madara Uchiha","995926":"rekire","1026459":"Travis J","1380752":"codeMagic","1849664":"Undo","1952862":"Ty221","2057919":"Ed Cottrell","2174085":"Johnny Bones","2193767":"Vinod Madyalkar","2301450":"vaultah","2371861":"bjb568","2422776":"Mureinik","3093387":"josilber"},
+	"cookieJar": "cookies.json",
+	"requestDelay": 10000,
+	"root": ""
+}

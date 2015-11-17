@@ -1,0 +1,72 @@
+@keyframes changed {
+	from {
+		opacity: 0.6;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Roboto, sans-serif;
+	margin: 1em;
+	position: relative;
+}
+
+.nominee {
+	display: flex;
+	position: absolute;
+	transition: top 0.2s ease;
+	width: 100%;
+}
+
+.nominee.changed {
+	animation: changed 1s ease;
+}
+
+.nominee-name {
+	color: #036;
+	display: inline-block;
+	min-width: 8em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+.votes-container {
+	flex: 1;
+	position: relative;
+}
+
+.votes {
+	height: 1em;
+	margin-top: -0.5em;
+	position: absolute;
+	top: 50%;
+	transition: all 1s ease;
+}
+
+.votes-positive {
+	background-color: #081;
+}
+
+.votes-negative {
+	background-color: #d20;
+}
+
+.votes > span {
+	font-size: 0.6em;
+	margin-top: 0.1em;
+	position: absolute;
+	top: 100%;
+	white-space: nowrap;
+}
+
+.votes-positive > span {
+	color: #061;
+}
+
+.votes-negative > span {
+	color: #800;
+}
